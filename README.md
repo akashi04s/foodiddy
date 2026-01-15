@@ -197,7 +197,7 @@ Following the latest design guidelines for a modern, cohesive experience
 
 | Water Tracking | Calorie Tracking | Accent Colors |
 |:---:|:---:|:---:|
-| ![#A01B37](https://via.placeholder.com/100x40/A01B37/FFFFFF?text=%23A01B37) | ![#228B6F](https://via.placeholder.com/100x40/228B6F/FFFFFF?text=%23228B6F) | ![#DA935D](https://via.placeholder.com/100x40/DA935D/FFFFFF?text=%23DA935D) |
+| ![#A01B37](https://img.shields.io/badge/-%23A01B37-A01B37?style=for-the-badge) | ![#228B6F](https://img.shields.io/badge/-%23228B6F-228B6F?style=for-the-badge) | ![#DA935D](https://img.shields.io/badge/-%23DA935D-DA935D?style=for-the-badge) |
 
 </div>
 
