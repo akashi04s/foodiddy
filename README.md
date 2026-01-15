@@ -1,260 +1,545 @@
-# FooDiddy - Fitness Tracker
-
 <div align="center">
-  <img src="app/src/main/res/drawable/logo1.png" alt="FooDiddy Logo" width="300"/>
-  
-  [![Android](https://img.shields.io/badge/Platform-Android-green.svg)](https://www.android.com/)
-  [![Kotlin](https://img.shields.io/badge/Language-Kotlin-blue.svg)](https://kotlinlang.org/)
-  [![Jetpack Compose](https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4.svg)](https://developer.android.com/jetpack/compose)
-  [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+<!-- Logo with animation effect -->
+<img src="app/src/main/res/drawable/logo1.png" alt="FooDiddy Logo" width="400"/>
+
+<h1>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=35&duration=3000&pause=1000&color=A01B37&center=true&vCenter=true&width=435&lines=FooDiddy;Your+Fitness+Companion" alt="Typing SVG" />
+</h1>
+
+<p align="center">
+  <strong>Track. Monitor. Achieve.</strong><br>
+  Your personal fitness journey starts here 🚀
+</p>
+
+<!-- Badges with custom styling -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android"/>
+  <img src="https://img.shields.io/badge/Kotlin-1.9.0-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin"/>
+  <img src="https://img.shields.io/badge/Jetpack_Compose-1.5.4-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Compose"/>
+  <img src="https://img.shields.io/badge/Material_Design_3-Latest-757575?style=for-the-badge&logo=materialdesign&logoColor=white" alt="Material Design"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Min_SDK-24-00C853?style=flat-square" alt="Min SDK"/>
+  <img src="https://img.shields.io/badge/Target_SDK-34-00C853?style=flat-square" alt="Target SDK"/>
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="License"/>
+  <img src="https://img.shields.io/badge/Version-1.0-blue?style=flat-square" alt="Version"/>
+</p>
+
 </div>
 
-## 📱 About
+<br>
 
-FooDiddy is a modern, intuitive fitness tracking application built with Jetpack Compose for Android. Track your daily water intake, calorie consumption, and weight progress with a beautiful, user-friendly interface. The app provides personalized recommendations based on your BMI and fitness goals.
+<!-- Animated divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## ✨ Features
+<br>
 
-### 🎯 Core Functionality
-- **Water Intake Tracking**: Monitor your daily water consumption with visual progress indicators
-- **Calorie Tracking**: Log your daily calorie intake and stay within your target goals
-- **Weight Management**: Track your weight over time and visualize your progress
-- **Weekly Weight Analysis**: View average weekly weight trends with interactive charts
-- **History Tracking**: Access complete history of water, calorie, and weight entries
-- **Personalized Onboarding**: BMI calculation and customized daily goal recommendations
+## 🌟 What is FooDiddy?
 
-### 🎨 User Experience
-- **Modern UI**: Built entirely with Jetpack Compose and Material Design 3
-- **Dark Theme**: Eye-friendly dark theme throughout the app
-- **Smooth Animations**: Fluid transitions and interactive elements
-- **Intuitive Navigation**: Bottom navigation bar for easy access to all features
-- **Real-time Progress**: Visual circular progress indicators with color gradients
+<table>
+<tr>
+<td width="50%">
 
-### ⚙️ Customization
-- **Adjustable Goals**: Modify daily water and calorie targets anytime
-- **Weight Units**: Switch between kilograms (kg) and pounds (lbs)
-- **Smart Recommendations**: Auto-adjust targets based on your progress
-- **Flexible Input**: Easy-to-use dialogs for quick data entry
+**FooDiddy** is not just another fitness app—it's your personal health companion that makes tracking your wellness journey **effortless** and **enjoyable**. Built with cutting-edge Android technologies, it offers a seamless experience that motivates you to achieve your fitness goals.
 
-## 📸 Screenshots
+### Why FooDiddy?
+- 🎯 **Smart & Personalized** - BMI-based recommendations
+- 💧 **Hydration Tracking** - Never forget to drink water
+- 🍽️ **Calorie Management** - Stay within your goals
+- ⚖️ **Weight Monitoring** - Track your progress over time
+- 📊 **Visual Analytics** - Beautiful charts and insights
+- 🎨 **Modern Design** - Stunning UI with smooth animations
 
-### Onboarding Experience
+</td>
+<td width="50%">
+
+<img src="screenshots/Dashboard.png" alt="Dashboard Preview" width="100%"/>
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<!-- Animated divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<br>
+
+## ✨ Features That Make You Love It
+
 <div align="center">
-  <img src="screenshots/Onboarding 1.png" alt="Onboarding Step 1" width="250"/>
-  <img src="screenshots/Onboarding 2.png" alt="Onboarding Step 2" width="250"/>
+
+| 💧 Water Tracking | 🔥 Calorie Tracking | ⚖️ Weight Management | 📊 Weekly Analytics |
+|:---:|:---:|:---:|:---:|
+| Monitor daily water intake with beautiful circular progress indicators | Log meals and track calories with smart goal management | Record weight changes and visualize your journey | View weekly averages and trends with interactive charts |
+
 </div>
 
-*Personalized onboarding with BMI calculation and goal recommendations*
+### 🎯 Core Features
 
-### Dashboard
+<details open>
+<summary><b>🚀 Smart Onboarding</b></summary>
+<br>
+
+- **Personalized Setup**: Enter your details and get instant BMI calculation
+- **Health Insights**: Receive your health category and personalized recommendations
+- **Custom Goals**: Set water, calorie, and weight targets tailored to you
+- **Beautiful UI**: Smooth animations and intuitive design guide you through
+
 <div align="center">
-  <img src="screenshots/Dashboard.png" alt="Dashboard" width="250"/>
+  <img src="screenshots/Onboarding 1.png" alt="Onboarding 1" width="30%"/>
+  <img src="screenshots/Onboarding 2.png" alt="Onboarding 2" width="30%"/>
 </div>
 
-*Main dashboard showing daily progress for water and calorie intake*
+</details>
 
-### History Tracking
+<details>
+<summary><b>📱 Interactive Dashboard</b></summary>
+<br>
+
+- **Real-Time Progress**: See your daily achievements at a glance
+- **Color-Coded Indicators**: Water (red gradient) and Calories (green gradient)
+- **One-Tap Logging**: Quick access to add entries
+- **Dynamic Updates**: Watch your progress grow in real-time
+- **Today's Focus**: Clear display of current day and goals
+
 <div align="center">
-  <img src="screenshots/History 1.png" alt="Empty History" width="250"/>
-  <img src="screenshots/History 2.png" alt="History with Data" width="250"/>
+  <img src="screenshots/Dashboard.png" alt="Dashboard" width="35%"/>
 </div>
 
-*Track your complete history of water, calorie, and weight entries*
+</details>
 
-### Weekly Weight Analysis
+<details>
+<summary><b>📜 Complete History</b></summary>
+<br>
+
+- **Date-Based Tracking**: View all entries organized by date
+- **Entry Management**: Edit or delete past entries
+- **Empty State Design**: Beautiful placeholder when starting fresh
+- **Comprehensive View**: Water, calories, and weight all in one place
+
 <div align="center">
-  <img src="screenshots/Average Weekly Weight 1.png" alt="Empty Weekly Weight" width="250"/>
-  <img src="screenshots/Average Weekly Weight 2.png" alt="Weekly Weight with Data" width="250"/>
+  <img src="screenshots/History 1.png" alt="Empty History" width="30%"/>
+  <img src="screenshots/History 2.png" alt="History with Data" width="30%"/>
 </div>
 
-*Visualize your weekly weight trends and progress*
+</details>
 
-### Settings
+<details>
+<summary><b>📈 Weekly Weight Analysis</b></summary>
+<br>
+
+- **Trend Visualization**: See your weekly average weight
+- **Progress Tracking**: Monitor changes over time
+- **Visual Charts**: Beautiful graphs for better insights
+- **Motivational Design**: Celebrate your achievements
+
 <div align="center">
-  <img src="screenshots/Settings.png" alt="Settings" width="250"/>
+  <img src="screenshots/Average Weekly Weight 1.png" alt="Empty Weekly" width="30%"/>
+  <img src="screenshots/Average Weekly Weight 2.png" alt="Weekly with Data" width="30%"/>
 </div>
 
-*Customize your daily goals and preferences*
+</details>
 
-## 🏗️ Architecture
+<details>
+<summary><b>⚙️ Flexible Settings</b></summary>
+<br>
 
-FooDiddy follows modern Android development best practices:
+- **Goal Adjustment**: Modify water and calorie targets anytime
+- **Unit Preferences**: Switch between kg and lbs
+- **Instant Feedback**: See changes reflected immediately
+- **Smart Validation**: Ensures your inputs make sense
 
-### Tech Stack
-- **Language**: Kotlin
-- **UI Framework**: Jetpack Compose
-- **Architecture**: MVVM (Model-View-ViewModel)
-- **Database**: Room Database
-- **Dependency Injection**: Manual DI with Application class
-- **Async Operations**: Kotlin Coroutines & Flow
-- **Data Storage**: DataStore Preferences
-- **Navigation**: Jetpack Navigation Compose
+<div align="center">
+  <img src="screenshots/Settings.png" alt="Settings" width="35%"/>
+</div>
 
-### Project Structure
+</details>
+
+<br>
+
+<!-- Animated divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<br>
+
+## 🎨 Design Philosophy
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+### 🌙 Dark Theme
+Eye-friendly dark mode throughout the entire app for comfortable viewing
+
+</td>
+<td width="33%" align="center">
+
+### 🎭 Smooth Animations
+Bouncy, spring-based animations that make every interaction delightful
+
+</td>
+<td width="33%" align="center">
+
+### 🎯 Material Design 3
+Following the latest design guidelines for a modern, cohesive experience
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+### Color Palette
+
+| Water Tracking | Calorie Tracking | Accent Colors |
+|:---:|:---:|:---:|
+| ![#A01B37](https://via.placeholder.com/100x40/A01B37/FFFFFF?text=Red+Gradient) | ![#228B6F](https://via.placeholder.com/100x40/228B6F/FFFFFF?text=Green+Gradient) | ![#DA935D](https://via.placeholder.com/100x40/DA935D/FFFFFF?text=Orange+Accent) |
+
+</div>
+
+<br>
+
+<!-- Animated divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<br>
+
+## 🏗️ Technical Excellence
+
+<div align="center">
+
+### Built With Modern Android Stack
+
+</div>
+
+<table>
+<tr>
+<td width="50%">
+
+#### 🎯 Architecture
+```
+MVVM Pattern
+├── 📱 UI Layer (Jetpack Compose)
+├── 🧠 ViewModel Layer
+├── 💾 Repository Layer
+└── 🗄️ Data Layer (Room + DataStore)
+```
+
+#### 🛠️ Core Technologies
+- **Kotlin** - 100% Kotlin codebase
+- **Jetpack Compose** - Modern declarative UI
+- **Room Database** - Local data persistence
+- **DataStore** - Preferences management
+- **Coroutines & Flow** - Async operations
+- **Material Design 3** - Latest design system
+
+</td>
+<td width="50%">
+
+#### 📦 Key Dependencies
+
+```kotlin
+// Jetpack Compose
+compose-bom:2023.10.01
+material3
+material-icons-extended
+
+// Architecture Components
+lifecycle-viewmodel-compose:2.7.0
+navigation-compose:2.7.6
+
+// Data Persistence
+room-runtime:2.6.1
+datastore-preferences:1.0.0
+
+// Async Programming
+kotlinx-coroutines-android:1.7.3
+```
+
+</td>
+</tr>
+</table>
+
+### 📁 Project Structure
+
 ```
 app/src/main/java/com/fitness/tracker/
-├── data/
-│   ├── converter/       # Type converters for Room
-│   ├── dao/            # Data Access Objects
-│   ├── database/       # Room database configuration
-│   ├── entity/         # Database entities
-│   ├── preferences/    # DataStore preferences
-│   └── repository/     # Repository pattern implementation
-├── ui/
-│   ├── components/     # Reusable UI components
-│   ├── navigation/     # Navigation setup
-│   ├── screen/         # Screen composables
-│   ├── theme/          # App theming
-│   └── viewmodel/      # ViewModels
-├── FitnessApplication.kt
-└── MainActivity.kt
+│
+├── 📊 data/
+│   ├── converter/          # Room type converters
+│   ├── dao/               # Data Access Objects
+│   ├── database/          # Database configuration
+│   ├── entity/            # Data models
+│   ├── preferences/       # DataStore preferences
+│   └── repository/        # Repository pattern
+│
+├── 🎨 ui/
+│   ├── components/        # Reusable composables
+│   ├── navigation/        # Navigation setup
+│   ├── screen/           # Screen composables
+│   ├── theme/            # App theming
+│   └── viewmodel/        # ViewModels
+│
+├── 🚀 FitnessApplication.kt
+└── 📱 MainActivity.kt
 ```
 
-### Key Components
+<br>
 
-#### Data Layer
-- **Room Database**: Local data persistence for water, calorie, and weight entries
-- **DataStore**: User preferences and settings storage
-- **Repository Pattern**: Single source of truth for data operations
+<!-- Animated divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-#### UI Layer
-- **Jetpack Compose**: Declarative UI with Material Design 3
-- **ViewModels**: State management and business logic
-- **Navigation**: Type-safe navigation between screens
+<br>
 
-## 🚀 Getting Started
+## 📥 Installation
 
-### Prerequisites
-- Android Studio Hedgehog (2023.1.1) or newer
-- Android SDK 24 or higher
-- Kotlin 1.9.0 or higher
+<div align="center">
 
-### Installation
+### 🎉 Ready to Start Your Fitness Journey?
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/foodiddy.git
-cd foodiddy
-```
+<br>
 
-2. Open the project in Android Studio
+<a href="../../releases">
+  <img src="https://img.shields.io/badge/Download-Latest_Release-A01B37?style=for-the-badge&logo=android&logoColor=white" alt="Download"/>
+</a>
 
-3. Sync Gradle files
+<br><br>
 
-4. Run the app on an emulator or physical device
+**Simply head to the [Releases](../../releases) page and download the latest APK!**
 
-### Configuration
+<br>
 
-The app uses the following Gradle configuration:
-- **Compile SDK**: 34
-- **Min SDK**: 24 (Android 7.0)
-- **Target SDK**: 34
-- **Kotlin Version**: 1.9.0
-- **Compose BOM**: 2023.10.01
+### 📋 Requirements
 
-## 🎯 Usage
+<table>
+<tr>
+<td align="center">
 
-### First Launch
-1. Enter your personal information (name, gender, height, weight)
-2. Review your calculated BMI and health category
-3. Set or adjust your daily water and calorie goals
-4. Define your target weight
+**Android Version**<br>
+7.0 (Nougat) or higher
 
-### Daily Tracking
-1. **Dashboard**: Tap on the circular progress indicators to log water or calories
-2. **Weight**: Tap on your current weight to update it
-3. **History**: View and manage all your entries by date
-4. **Weekly Weight**: Monitor your weekly average weight trends
-5. **Settings**: Adjust your goals and preferences anytime
+</td>
+<td align="center">
 
-## 🛠️ Dependencies
+**Storage**<br>
+~20 MB
 
-### Core Libraries
-```gradle
-// Jetpack Compose
-androidx.compose:compose-bom:2023.10.01
-androidx.compose.material3:material3
-androidx.compose.material:material-icons-extended
+</td>
+<td align="center">
 
-// Room Database
-androidx.room:room-runtime:2.6.1
-androidx.room:room-ktx:2.6.1
+**Permissions**<br>
+None required!
 
-// DataStore
-androidx.datastore:datastore-preferences:1.0.0
+</td>
+</tr>
+</table>
 
-// Navigation
-androidx.navigation:navigation-compose:2.7.6
+</div>
 
-// Coroutines
-org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3
-```
+<br>
 
-## 🎨 Design Highlights
+<!-- Animated divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-- **Color-Coded Progress**: Water (red gradient) and Calories (green gradient)
-- **Interactive Elements**: Bouncy animations on tap interactions
-- **Custom Typography**: Bahnschrift font for a modern look
-- **Responsive Layout**: Adapts to different screen sizes
-- **Material Design 3**: Latest design guidelines and components
+<br>
 
-## 📊 Features in Detail
+## 🎯 How to Use
 
-### BMI Calculation
-The app calculates your Body Mass Index (BMI) during onboarding and provides:
-- BMI value with one decimal precision
-- Health category classification
-- Personalized recommendations for water and calorie intake
-- Ideal weight calculation based on height
+<div align="center">
 
-### Smart Target Adjustment
-The app can automatically suggest target adjustments based on your progress and goals, helping you stay on track with your fitness journey.
+### Your Journey in 3 Simple Steps
 
-### Data Persistence
-All your data is stored locally on your device using Room Database, ensuring:
-- Fast data access
-- Offline functionality
-- Data privacy and security
-- No internet connection required
+</div>
 
-## 🔒 Privacy
+<table>
+<tr>
+<td width="33%" align="center">
 
-FooDiddy respects your privacy:
-- All data is stored locally on your device
-- No data is sent to external servers
-- No account creation required
-- No tracking or analytics
+### 1️⃣ Setup
+**First Launch**
+
+Enter your details, get your BMI, and set personalized goals
+
+</td>
+<td width="33%" align="center">
+
+### 2️⃣ Track
+**Daily Logging**
+
+Tap to log water, calories, and weight throughout your day
+
+</td>
+<td width="33%" align="center">
+
+### 3️⃣ Analyze
+**Monitor Progress**
+
+View history and weekly trends to stay motivated
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<!-- Animated divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<br>
+
+## 🔒 Privacy First
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+### 📱
+**Local Storage**<br>
+All data stays on your device
+
+</td>
+<td align="center" width="25%">
+
+### 🚫
+**No Tracking**<br>
+Zero analytics or tracking
+
+</td>
+<td align="center" width="25%">
+
+### 🔐
+**No Account**<br>
+No sign-up required
+
+</td>
+<td align="center" width="25%">
+
+### ✈️
+**Offline First**<br>
+Works without internet
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<br>
+
+<!-- Animated divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<br>
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+<div align="center">
 
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+**Love FooDiddy? Want to make it even better?**
 
-## 📝 License
+We welcome contributions from the community! Whether it's:
+- 🐛 Bug fixes
+- ✨ New features
+- 📝 Documentation improvements
+- 🎨 UI/UX enhancements
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+<br>
 
-## 👨‍💻 Author
+### How to Contribute
 
-**Akashi**
+</div>
 
-## 🙏 Acknowledgments
+```bash
+# 1. Fork the repository
+# 2. Create your feature branch
+git checkout -b feature/AmazingFeature
 
-- Material Design 3 for the beautiful design system
-- Jetpack Compose team for the amazing UI toolkit
-- Android community for continuous support and inspiration
+# 3. Commit your changes
+git commit -m 'Add some AmazingFeature'
 
-## 📧 Contact
+# 4. Push to the branch
+git push origin feature/AmazingFeature
 
-For questions or feedback, please open an issue on GitHub.
+# 5. Open a Pull Request
+```
+
+<br>
+
+<!-- Animated divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<br>
+
+## 📜 License
+
+<div align="center">
+
+This project is licensed under the **MIT License**
+
+See [LICENSE](LICENSE) file for details
+
+</div>
+
+<br>
+
+<!-- Animated divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<br>
+
+## 💖 Acknowledgments
+
+<div align="center">
+
+Special thanks to:
+
+**Google** for Jetpack Compose & Material Design 3<br>
+**Android Community** for continuous inspiration<br>
+**Open Source Contributors** for amazing libraries
+
+</div>
+
+<br>
+
+<!-- Animated divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<br>
+
+<div align="center">
+
+## 👨‍💻 Crafted with ❤️ by Akashi
+
+<br>
+
+<img src="https://img.shields.io/badge/Made_with-Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Made with Kotlin"/>
+<img src="https://img.shields.io/badge/Built_with-Jetpack_Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Built with Compose"/>
+<img src="https://img.shields.io/badge/Powered_by-Coffee-6F4E37?style=for-the-badge&logo=buymeacoffee&logoColor=white" alt="Powered by Coffee"/>
+
+<br><br>
+
+### 📧 Get in Touch
+
+<a href="https://github.com/yourusername">
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+
+<br><br>
 
 ---
 
-<div align="center">
-  Made with ❤️ by Akashi | © 2026
+<br>
+
+**© 2026 Akashi. All rights reserved.**
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=A01B37&height=100&section=footer" width="100%"/>
+
 </div>
